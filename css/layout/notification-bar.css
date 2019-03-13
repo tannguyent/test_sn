@@ -1,6 +1,5 @@
 /* The Modal (background) */
 .modal {
-    overflow: auto;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
@@ -10,7 +9,16 @@
     /* Fade in the background */
     -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+  
 }
 
 /* Add Animation */
@@ -60,13 +68,10 @@
 
 
 .notification-bar {
-    position:fixed;
-    top:auto;
-    right:auto;
-    left:auto;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
     width: 100%;
-    top: 100%;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
