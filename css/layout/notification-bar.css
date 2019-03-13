@@ -86,13 +86,8 @@
     -moz-transition: max-height 2s;
     -webkit-transition: max-height 2s;
     transition: max-height 2s;
-    max-height: 0;
 }
 
-
-.modal.show .notification-bar {
-    max-height: initial !important;
-}
 
 .notification-bar .notification-item {
     display: flex;
@@ -159,7 +154,6 @@
     -moz-transition: max-height 2s;
     -webkit-transition: max-height 2s;
     transition: max-height 2s;
-    max-height: 0;
 }
 
 
