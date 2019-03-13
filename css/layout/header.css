@@ -1,0 +1,231 @@
+.navbar {
+    padding: 0px !important
+}
+header [class^="fa-*"], header [class^="fas-*"],
+header [class^="icon-"], [class*=" icon-"] {
+  font-size: 18px;  
+}
+
+.fa,
+.fas,
+.far,
+[class^="icon-"], [class*=" icon-"]{
+    color: #CDCDCD;
+}
+
+header .search-top {
+    background: linear-gradient(270deg, #1B75BC 0%, #2B3990 100.99%);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+    color: #fff;
+}
+header .search-top [class^="icon-search1"]{
+  color: #fff !important;
+}
+header .search-top .search-top-control {
+    padding: 20px;
+    color: #fff;
+    background-image: none !important;
+}
+.form-control {
+  background-image: linear-gradient(0deg,rgb(43,57,144) 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgb(43,57,144) 1px,transparent 0);
+}
+.form-control:focus {
+  color: #495057;
+  background-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+header .search-top .search-top-control::placeholder {
+    color: steelblue;
+}
+header .search-top .search-top-control:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.nav .nav-item .nav-link .active {
+    background: -webkit-linear-gradient(#1B75BC, #2B3990);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* đây là màu co tất cả header trở về */
+header .color-top {
+    background: linear-gradient(270deg, #1B75BC 0%, #2B3990 100.99%);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    height: 45px;
+}
+.bd-navbar-comment .fas,
+.bd-navbar-comment .fa,
+.bd-navbar-comment .far,
+.bd-navbar-comment [class^="icon-"], [class*=" icon-"]{
+  color: white;
+}
+.bd-navbar-post .fas,
+.bd-navbar-post .fa,
+.bd-navbar-post .far,
+.bd-navbar-post [class^="icon-"], [class*=" icon-"]{
+  color: white;
+}
+.bd-navbar-post .button-post-header{
+  margin: 0;
+  background: transparent;
+  border: 0px;
+  color: white;
+}
+.nav{
+  padding: 1px 5px 0px 10px !important
+}
+.navbar-nav .nav-link{
+  position: relative;
+}
+.navbar-icon-top .navbar-nav .nav-link > .fa,
+.navbar-icon-top .navbar-nav .nav-link > .fas,
+.navbar-icon-top .navbar-nav .nav-link > .far,
+.navbar-icon-top .navbar-nav .nav-link > [class^="icon-"], [class*=" icon-"]{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .navbar-icon-top .navbar-nav .nav-link > .fa > .badge,
+  .navbar-icon-top .navbar-nav .nav-link > .fas > .badge,
+  .navbar-icon-top .navbar-nav .nav-link > .far > .badge{
+    font-size: 0.5rem;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+  }
+  
+  .navbar-icon-top .navbar-nav .nav-link > .fa,
+  .navbar-icon-top .navbar-nav .nav-link > .far,
+  .navbar-icon-top .navbar-nav .nav-link > .fas{
+    top: 3px;
+    line-height: 12px;
+  }
+  
+  .navbar-icon-top .navbar-nav .nav-link > .fa  > .badge,
+  .navbar-icon-top .navbar-nav .nav-link > .far > .badge,
+  .navbar-icon-top .navbar-nav .nav-link > .fas > .badge{
+    top: -10px;
+  }
+  
+  @media (min-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+      text-align: center;
+      display: table-cell;
+      height: 70px;
+      vertical-align: middle;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa,
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fas,
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .far{
+      display: block;
+      width: 48px;
+      margin: 2px auto 4px auto;
+      top: 0;
+      line-height: 24px;
+    }
+  
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa  > .badge,
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fas > .badge,
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .far > .badge{
+      top: -7px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+      text-align: center;
+      display: table-cell;
+      height: 70px;
+      vertical-align: middle;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa,
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fas,
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .far{
+      display: block;
+      width: 48px;
+      margin: 2px auto 4px auto;
+      top: 0;
+      line-height: 24px;
+    }
+  
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa  > .badge,
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .far > .badge,
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fas > .badge {
+      top: -7px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+      text-align: center;
+      display: table-cell;
+      height: 70px;
+      vertical-align: middle;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa,
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .far,
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fas{
+      display: block;
+      width: 48px;
+      margin: 2px auto 4px auto;
+      top: 0;
+      line-height: 24px;
+    }
+  
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa  > .badge,
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .far > .badge,
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fas > .badge {
+      top: -7px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+      text-align: center;
+      display: table-cell;
+      height: 70px;
+      vertical-align: middle;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa,
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .far,
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fas{
+      display: block;
+      width: 48px;
+      margin: 2px auto 4px auto;
+      top: 0;
+      line-height: 24px;
+    }
+  
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa  > .badge,
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .far > .badge,
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fas > .badge{
+      top: -7px;
+    }
+  }
+  
+
+
+
+  .icon-number-top{
+    position: absolute;
+    top: 0;
+    left: 58%;
+    font-size: 9px !important;
+    color: white;
+  }

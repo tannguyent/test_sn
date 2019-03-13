@@ -1,0 +1,28 @@
+.btn-circle {
+    width: 33px;
+    height: 33px;
+    padding: 6px 0px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 0.42857;
+    
+}
+.btn-circle:hover{
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+}
+.button-post .btn-color{
+    background: -webkit-linear-gradient(#1B75BC, #2B3990) !important;
+    
+}
+.button-post .btn-color > i{
+    color: white;
+    font-size: 16px;
+}
+.button-post{
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.5rem;   
+    z-index: 999;
+   
+}
